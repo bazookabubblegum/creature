@@ -1,0 +1,20 @@
+main.css
+#face{
+	width:40px;
+	height:40px;
+}
+
+.polygon{
+	width:100px;
+	height:100px;
+	background-color:#000;
+	-webkit-clip-path: polygon(23% 0, 65% 0, 53% 68%, 35% 68%);
+	clip-path: polygon(23% 0, 65% 0, 53% 68%, 35% 68%);
+}
+.trapezoid {
+    border-bottom: 100px solid black;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    height: 0;
+    width: 100px;
+}
