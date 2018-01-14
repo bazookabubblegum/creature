@@ -12,34 +12,58 @@ main.css
 	text-align:center;
 }
 
-.circle{
+.circle1{
 	display:block;
-	position: absolute;
+	position:absolute;
 	top: 0px;
-	right:200px;
+	right:320px;
 	width:10%;
-	height:160px;
-	margin:0px 40px 30px 70%;
+	height:130px;
+	margin:40px 40px 30px 90%;
 	background-color:#5a5d5e;
 	-webkit-clip-path: ellipse(25% 40% at 50% 50%);
 	clip-path: ellipse(25% 40% at 50% 50%);
 }
 
-.polygon{
+.circle2{
+	display:inline-block;
+	position: ;
+	top: 0px;
+	left:320px;
+	width:10%;
+	height:130px;
+	margin:40px 40px 30px 0%;
+	background-color:#5a5d5e;
+	-webkit-clip-path: ellipse(25% 40% at 50% 50%);
+	clip-path: ellipse(25% 40% at 50% 50%);
+}
+.polygon1{
 	display:block;
 	position: absolute;
 	top: 50px;
-	right:200px;
-	margin:10px 20px 0px 70%;
-	width:10%;
-	height:90px;
+	left:330px;
+	margin:10px 20px 0px 90%;
+	width:5%;
+	height:60px;
+	border-radius: 5px;
 	background-color:#FFF;
-	border-radius:680px;
-	padding:5px;
-	-webkit-clip-path: polygon(23% 0, 65% 0, 53% 68%, 35% 68%);
-	clip-path: polygon(23% 0, 65% 0, 53% 68%, 35% 68%);
+	-webkit-clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+	clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
 }
-.trapezoid {
+.polygon2{
+	display:inline-block;
+	position: absolute;
+	top: 50px;
+	left:10px;
+	margin:10px 200px 0px 0%;
+	width:5%;
+	height:60px;
+	border-radius: 5px;
+	background-color:#FFF;
+	-webkit-clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+	clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+}
+.nose {
 	display:block;
 	margin:0 auto;
     border-bottom: 100px solid black;
@@ -47,11 +71,11 @@ main.css
     border-right: 50px solid transparent;
     height: 0;
     width: 100px;
+	-webkit-clip-path: polygon(75% 11%, 65% 45%, 95% 35%, 87% 68%, 67% 63%, 54% 76%, 37% 63%, 21% 69%, 7% 41%, 26% 11%);
+	clip-path: polygon(75% 11%, 95% 35%, 87% 68%, 67% 63%, 54% 76%, 37% 63%, 21% 69%, 7% 41%, 26% 11%);
 }
-
-.nose{
+.mouth{
 	display:block;
-	
 	margin:0 auto;
 	height:70px;
 	width:80px;
