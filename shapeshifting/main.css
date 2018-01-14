@@ -1,20 +1,61 @@
 main.css
+#eyes{
+	display:inline-block;
+	margin:0 auto;
+	height:500px;'
+	width:300px;
+}
 #face{
-	width:40px;
-	height:40px;
+	width:1400px;
+	height:1440px;
+	display:block;
+	text-align:center;
+}
+
+.circle{
+	display:block;
+	position: absolute;
+	top: 0px;
+	right:200px;
+	width:10%;
+	height:160px;
+	margin:0px 40px 30px 70%;
+	background-color:#5a5d5e;
+	-webkit-clip-path: ellipse(25% 40% at 50% 50%);
+	clip-path: ellipse(25% 40% at 50% 50%);
 }
 
 .polygon{
-	width:100px;
-	height:100px;
-	background-color:#000;
+	display:block;
+	position: absolute;
+	top: 50px;
+	right:200px;
+	margin:10px 20px 0px 70%;
+	width:10%;
+	height:90px;
+	background-color:#FFF;
+	border-radius:680px;
+	padding:5px;
 	-webkit-clip-path: polygon(23% 0, 65% 0, 53% 68%, 35% 68%);
 	clip-path: polygon(23% 0, 65% 0, 53% 68%, 35% 68%);
 }
 .trapezoid {
+	display:block;
+	margin:0 auto;
     border-bottom: 100px solid black;
     border-left: 50px solid transparent;
     border-right: 50px solid transparent;
     height: 0;
     width: 100px;
+}
+
+.nose{
+	display:block;
+	
+	margin:0 auto;
+	height:70px;
+	width:80px;
+	background-color:black;
+	-webkit-clip-path: polygon(51% 69%, 90% 20%, 100% 63%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+	clip-path: polygon(51% 69%, 90% 20%, 100% 63%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
 }
